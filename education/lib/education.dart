@@ -1,0 +1,23 @@
+library;
+
+export 'src/domain/idea/idea.dart';
+export 'src/domain/idea/idea_id.dart';
+export 'src/domain/idea/idea_repository.dart';
+export 'src/domain/authorid/author_id.dart';
+export 'src/domain/idea/idea_factory.dart';
+export 'src/domain/idea/commands/register_idea_domain_command.dart';
+export 'src/domain/draft/draft.dart';
+export 'src/domain/draft/draft_id.dart';
+export 'src/domain/training/training.dart';
+export 'src/domain/training/trainer_id.dart';
+export 'src/domain/training/training_id.dart';
+export 'src/domain/training/training_repository.dart';
+export 'src/domain/training/training_domain_service.dart';
+export 'src/domain/trainerscatalogue/trainers_catalogue.dart';
+export 'src/application/idea/idea_application_service.dart';
+export 'src/application/idea/register_idea_command.dart';
+export 'src/application/training/training_application_service.dart';
+export 'src/adapters/primary/rest/idea/idea_dto.dart';
+export 'src/adapters/primary/rest/idea/idea_rest_controller.dart';
+export 'src/adapters/secondary/repository/inmemory/idea/in_memory_idea_repository.dart';
+export 'src/adapters/secondary/repository/inmemory/idea/idea_not_found_exception.dart';
